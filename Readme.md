@@ -1,47 +1,20 @@
-# Zachary Ryan Portfolio Website
+# Zachary Ryan - Portfolio Website
 
-This is the source code for Zachary Ryan's personal portfolio website. It showcases his resume, projects, and contact information, designed with a clean, professional aesthetic suitable for technical recruiters.
+This is a personal portfolio website for Zachary Ryan, a cybersecurity student and Navy veteran. The website showcases his skills, projects, achievements, and resume in a clean, responsive design.
 
 ## 🌟 Features
-- **About Me:** Personal bio with a profile picture.
-- **Resume:** Link to view and download the latest resume.
-- **Projects:** Showcase of key projects with GitHub links.
-- **Contact Form:** Simple form for direct communication.
-- **Responsive Design:** Looks great on all devices.
 
-## 📁 Project Structure
-```
-├── index.html        # Main HTML file for the website
-├── Ryan_PFP.jpeg     # Profile picture
-├── Zachary_Ryan_Resume_Spring_Semester.pdf  # Resume PDF
-└── README.md         # This documentation
-```
+- **About Me:** A brief introduction highlighting professional background and current focus.
+- **Skills:** Displays technical proficiencies using recognizable logos.
+- **Projects:** Showcases personal coding projects with links to GitHub repositories.
+- **Achievements:** Highlights co-curricular activities and certifications.
+- **Smooth Navigation:** Clean, centered navbar with smooth scrolling.
 
-## 🚀 Getting Started
-1. **Clone the Repository:**
-```bash
-git clone https://github.com/Zachary200114/portfolio-website.git
-cd portfolio-website
-```
-2. **Open in Browser:**
-Simply open `index.html` in your browser.
+## Technologies Used
 
-## 🌐 Live Preview
-Coming soon...
+- **HTML5** for structure
+- **CSS3** for styling
+- **Google Fonts:** Playfair Display and Roboto for modern typography
+- **Devicon Icons** for skill logos
 
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- Google Fonts
-
-## 🤝 Connect
-- **LinkedIn:** [Zachary Ryan](https://www.linkedin.com/in/zachary-ryan01/)
-- **GitHub:** [Zachary200114](https://github.com/Zachary200114)
-- **Email:** zxrst175@mail.rmu.edu
-
-## 📄 License
-This project is licensed under the MIT License.
-
----
-Made with ❤️ by Zachary Ryan.
-
+## 📂 Project Structure
