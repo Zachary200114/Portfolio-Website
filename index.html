@@ -122,9 +122,20 @@
         flex-wrap: wrap;
         padding: 2rem 0;
       }
+      .skill-item {
+        text-align: center;
+      }
+      /* Increased from 40px to 43px for about a 7% increase */
       .skill-logo {
-        width: 40px;
-        height: 40px;
+        width: 43px;
+        height: 43px;
+      }
+      /* Increased font size from 0.8rem to 0.86rem for about a 7% increase */
+      .skill-item small {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.86rem;
+        color: #333;
       }
       .achievements ul {
         list-style-type: disc;
@@ -140,6 +151,7 @@
   </head>
   <body>
     <nav>
+      <!-- Matches the exact resume filename -->
       <a href="assets/Zachary_Ryan_Resume_Spring_Semester .pdf" target="_blank"
         >Resume</a
       >
@@ -157,7 +169,7 @@
     <div class="container">
       <section id="about" class="section">
         <div class="profile">
-          <img src="assets/Untitled design (1).png" alt="Zachary Ryan" />
+          <img src="assets/Ryan_PFP.jpeg" alt="Zachary Ryan" />
         </div>
         <h2>About Me</h2>
         <p class="about-me-para">
@@ -175,31 +187,77 @@
       <section id="skills" class="section">
         <h2>Skills</h2>
         <div class="skills">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-            alt="SQL"
-            class="skill-logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-            alt="Python"
-            class="skill-logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"
-            alt="Windows"
-            class="skill-logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
-            alt="Linux"
-            class="skill-logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
-            alt="Docker"
-            class="skill-logo"
-          />
+          <!-- Existing devicon-based skills remain the same -->
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+              alt="SQL"
+              class="skill-logo"
+            />
+            <small>SQL</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+              alt="Python"
+              class="skill-logo"
+            />
+            <small>Python</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"
+              alt="Windows"
+              class="skill-logo"
+            />
+            <small>Windows</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+              alt="Linux"
+              class="skill-logo"
+            />
+            <small>Linux</small>
+          </div>
+
+          <!-- Updated skill references according to your assets folder -->
+          <div class="skill-item">
+            <img
+              src="assets/Cybersecurity .png"
+              alt="Cybersecurity"
+              class="skill-logo"
+            />
+            <small>Cybersecurity</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="assets/Digital_Forensics.jpeg"
+              alt="Digital Forensics"
+              class="skill-logo"
+            />
+            <small>Digital Forensics</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="assets/Communication.png"
+              alt="Communication"
+              class="skill-logo"
+            />
+            <small>Communication</small>
+          </div>
+          <div class="skill-item">
+            <img
+              src="assets/Team_Leaderships.jpeg"
+              alt="Team Leaderships"
+              class="skill-logo"
+            />
+            <small>Team Leaderships</small>
+          </div>
+          <div class="skill-item">
+            <img src="assets/Cyberlaw.png" alt="Cyberlaw" class="skill-logo" />
+            <small>Cyberlaw</small>
+          </div>
         </div>
       </section>
 
