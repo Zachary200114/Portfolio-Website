@@ -57,7 +57,7 @@ git clone https://github.com/Zachary200114/portfolio-website.git
 Feel free to reach out if you'd like to collaborate, discuss cybersecurity topics, or just connect:
 
 - **Email:** [Zxrst175@mail.rmu.edu]
-- **LinkedIn:** [[Your LinkedIn Profile Here](https://www.linkedin.com/in/zachary-ryan01/)]
+- **LinkedIn:** [(https://www.linkedin.com/in/zachary-ryan01/)]
 - **GitHub:** [https://github.com/Zachary200114](https://github.com/Zachary200114)
 
 ---
